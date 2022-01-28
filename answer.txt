@@ -1,0 +1,9 @@
+1: we can access them from os.environ
+2:It's contained in os.environ['QUERY_STRING']
+3.it;s in os.environ['browser_info']
+4.it will be stored in gci form created by cgi.FieldStorage()
+5.Set-Cookie: <key>=<value>
+6.Cookie: <key>=<value>
+7.cookie is a group of data stored in browser, they are usually previous entered by user, and they will automatically
+fill some data requested to user. So user will not frequently enter them.
+8.https://github.com/Andyxzz2/cgi-lab
